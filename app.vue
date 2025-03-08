@@ -8,11 +8,6 @@
 
 
 
-onMounted(()=>{
-  useHead({
-    htmlAttrs:{
-      class:'dark'
-    }
-  })
-})
+
+  
 </script>

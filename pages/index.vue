@@ -25,6 +25,7 @@
 useHead({
     htmlAttrs:{
     lang:'en',
+    class:'dark'
     },
     title:'AK-Home',
     link:[
