@@ -31,7 +31,7 @@ export default defineNuxtConfig({
   },
   googleFonts:{
     families:{
-      'Open Sans':true
+      'Open+Sans':true
     },
     display: 'swap', // Ensures fallback font is used temporarily until Open Sans loads
     preload: true // Preload the font to improve load time

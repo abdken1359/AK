@@ -15,9 +15,9 @@
 </style>
 <template>
     <div>
-        <section class=" bg-neutral-900/50   md:px-10 overflow-hidden md:py-20 p-5 flex gap-4 items-center  flex-row md:flex-row mt-16 rounded-xl border-gray-500 border  ">
+        <section class=" bg-neutral-900/50   md:px-10 overflow-hidden md:py-10 lg:py-20 p-5 flex gap-4 items-center  flex-row md:flex-row mt-16 rounded-xl border-gray-500 border  ">
          <div class="md:w-3/4">
-            <h1 class="lg:text-6xl text-left  md:text-left font-extrabold md:text-5xl text-3xl text-violet-600 uppercase">Abdiel Kengne</h1>
+            <h1 class="lg:text-6xl text-left  md:text-left font-bold md:text-5xl text-4xl text-violet-600 uppercase">Abdiel Kengne</h1>
             <h2 class="text-2xl mt-4 text-left md:text-left lg:text-4xl md:text-3xl">Enthusiastic <span class="text-blue-400 font-bold">Frontend Developer</span> based in Edmundston
         </h2>
         </div>

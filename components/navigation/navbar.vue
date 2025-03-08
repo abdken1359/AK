@@ -10,7 +10,7 @@
         <!--Middle and large left navbar-->
         <div class="md:flex hidden items-center gap-6  ml-auto">
          <template v-for="l in links" :key="l.id">
-          <NuxtLink :to="l.to" class="font-bold hover:text-violet-500 transitio duration-150">
+          <NuxtLink active-class="text-violet-500" :to="l.to" class="font-bold hover:text-violet-500 transitio duration-150">
             {{ l.label }}
           </NuxtLink>
          </template>
@@ -30,7 +30,7 @@
 </template>
 <script setup lang="ts">
 const links = [
-  {id:1,label:'About',to:'/'},
+  {id:1,label:'About',to:'/about'},
   {id:2,label:'Blog',to:'/'},
   {id:3,label:'Showcase',to:'/'},
  // {id:4,label:'Contact',to:'/'}

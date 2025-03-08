@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <UContainer>
+        <UContainer >
 
             <header>
                 <HerosCoolHero/>
@@ -22,12 +22,13 @@
         </div>
 </template>
 <script setup lang="ts">
+
 useHead({
     htmlAttrs:{
     lang:'en',
     class:'dark'
     },
-    title:'AK-Home',
+    title:'AK',
     link:[
         {rel:'icon', href:'/icon.png', type:'image/png'}
     ],
@@ -35,14 +36,5 @@ useHead({
         {name:'description',content:'Welcome to my portfolio. My name is Abdiel, I am a frontend developer based in Edmundton, a small town in the province of New Brunswick, Canada'}
     ]
 })
-/*const isDark = useDark();
-const toggle = useToggle(isDark);
 
-// Ensure dark mode is set immediately when the page loads
-onBeforeMount(()=>{
-    if (!isDark.value) {
-  toggle();
-}
-})
-*/
 </script>
