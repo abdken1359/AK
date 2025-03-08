@@ -44,13 +44,13 @@ const wordCarousel=ref([
     {text:'Nuxt',class:'text-purple-500'}
 ])
 const images=ref([
-    {src:'https://img.icons8.com/color/48/html-5--v1.png',alt:'HTML Image'},
-    {src:'https://img.icons8.com/fluency/48/css3.png',alt:'CSS Image'},
-    {src:'https://img.icons8.com/color/48/javascript--v1.png',alt:'Javascript Image'},
-    {src:'https://img.icons8.com/fluency/48/tailwind_css.png',alt:'Tailwind CSS Image'},
-    {src:'https://img.icons8.com/nolan/64/vue-js.png',alt:'Vue JS Image'},
+    {src:'/images/techs/html.png',alt:'HTML Image'},
+    {src:'/images/techs/css.png',alt:'CSS Image'},
+    {src:'/images/techs/js.png',alt:'Javascript Image'},
+    {src:'/images/techs/tailwind.png',alt:'Tailwind CSS Image'},
+    {src:'/images/techs/vue.png',alt:'Vue JS Image'},
     //{src:'https://pinia.vuejs.org/logo.svg',alt:'Pinia Image'},
-    {src:'https://img.icons8.com/color/48/nuxt-jc.png',alt:'Nuxt Image'}
+    {src:'/images/techs/nuxt.png',alt:'Nuxt Image'}
 ])
 const counter=ref(0)
 const moveIt=()=>{
