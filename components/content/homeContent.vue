@@ -21,7 +21,7 @@
 <script setup lang="ts">
 const contents=ref([
     {id:1,to:'/about',img:'/images/aboutMe.png',alt:'Image of a note saying About Me',title:'About Me',text:'Know more about me.'},
-    {id:2,to:'/',img:'/images/blog.png',alt:'My blog Image',title:'Blog',text:'Explore my blog.'},
-    {id:3,to:'/',img:'/images/showcase.png',alt:'Image of an oval ',title:'Showcase',text:'See projects built by me.'}
+    {id:2,to:'/blog',img:'/images/blog.png',alt:'My blog Image',title:'Blog',text:'Explore my blog.'},
+    {id:3,to:'/showcase',img:'/images/showcase.png',alt:'Image of an oval ',title:'Showcase',text:'See projects built by me.'}
 ])
 </script>

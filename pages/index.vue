@@ -14,9 +14,7 @@
             
         </UContainer>
 
-        <footer>
-         <ContentFooter/>
-        </footer>
+
         
       
         </div>

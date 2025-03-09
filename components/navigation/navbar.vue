@@ -1,7 +1,7 @@
 <template>
     
       
-      <nav class=" flex align-middle sticky h-14 md:h-16 top-0 z-50 backdrop-blur-md bg-opacity-5 bg-white p-10 md:p-12">
+      <nav class=" flex align-middle sticky h-14 md:h-16 top-0 z-50 backdrop-blur-md bg-opacity-5 bg-neutral p-10 md:p-12">
         
         <div class="flex mr-auto items-center ">
           <NuxtLink to="/"><NuxtImg src="/icon.png" alt="AK logo" class="object-cover w-12 m-auto "/></NuxtLink>
@@ -31,7 +31,7 @@
 <script setup lang="ts">
 const links = [
   {id:1,label:'About',to:'/about'},
-  {id:2,label:'Blog',to:'/'},
+  {id:2,label:'Blog',to:'/blog'},
   {id:3,label:'Showcase',to:'/'},
  // {id:4,label:'Contact',to:'/'}
 ]
@@ -39,12 +39,14 @@ const smallLinks=[
   [{
     label:'About',
     labelClass:'text-white hover:text-violet-500 w-full text-center font-bold',
-    to:'/'
+    to:'/about'
 
   }],
   [{
     label:'Blog',
-    labelClass:'text-white hover:text-violet-500 w-full font-bold'
+
+    labelClass:'text-white hover:text-violet-500 w-full text-center font-bold',
+    to:'/blog'
 
   }]
 ]

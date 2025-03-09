@@ -3,6 +3,9 @@
 <NavigationNavbar/>
 
 <NuxtPage />
+<footer>
+         <ContentFooter/>
+        </footer>
 </div>
 </template>
 <script setup lang="ts">
