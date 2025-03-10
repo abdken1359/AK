@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "title":"Why Frontend Development Became My Passion",
+
+        "created":"March 08, 2025",
+        "author":"Abdiel Kengne",
+        "image":"https://i.postimg.cc/D0CcN3gH/frontned-dev.png",
+        "alt":"Image of a computer on a yellow background.",
+        "to":"/blog/why_frontend_development_became_my_passion"
+        
+
+    },
+    {
+        "id":1,
+        "title":"Why Frontend Development Became My Passion",
+
+        "created":"March 08, 2025",
+        "author":"Abdiel Kengne",
+        "image":"https://i.postimg.cc/D0CcN3gH/frontned-dev.png",
+        "alt":"Image of a computer on a yellow background.",
+        "to":"/blog/why_frontend_development_became_my_passion"
+        
+
+    }
+]

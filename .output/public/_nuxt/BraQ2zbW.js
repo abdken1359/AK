@@ -1,0 +1,1 @@
+import{m as t,c as n,o as r,a as s}from"./BsxCChA_.js";const o={},c={class:"bg-neutral-900 text-center py-5"};function _(a,e){return r(),n("div",c,e[0]||(e[0]=[s("p",null,"© 2025 Abdiel, All rights reserved",-1)]))}const d=t(o,[["render",_]]);export{d as _};

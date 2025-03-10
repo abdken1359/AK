@@ -6,7 +6,7 @@ export const blogPost=[
         created:"March 08, 2025",
         author:"Abdiel Kengne",
         tags:['web development','HTML'],
-        image:"https://i.postimg.cc/D0CcN3gH/frontned-dev.png",
+        image:"https://imghost.net/ib/qOKEDayso2cm1yN_1741561652.png",
         alt:"Image of a computer on a yellow background.",
         to:"/blog/how_frontend_development_became_my_passion"
         
@@ -19,35 +19,50 @@ export const blogPost=[
         created:"March 09, 2025",
         author:"Abdiel Kengne",
         tags:['Accessibility','web design'],
-        image:"https://i.postimg.cc/bJX8Gd7Y/accessibility.png",
+        image:"https://i.imghippo.com/files/SKBx1342H.png",
         alt:"Image of accessibility",
         to:"/blog/creating_accessible_websites"
         
 
     },
-    {
+   /* {
         id:3,
         title:"Vue 3 Composition API Tutorial For Beginners",
 
         created:"March 09, 2025",
         author:"Abdiel Kengne",
         tags:['Vue JS','frontend development'],
-        image:"https://i.postimg.cc/vZrmwJDS/compositionapi.png",
+        image:"https://imghost.net/ib/BX1mA5GT6QelQzl_1741561441.png",
         alt:"Image of accessibility",
         to:"/blog/creating_accessible_websites"
+        
+
+    },*/
+    {
+        id:3,
+        title:"Why Nuxt is Ideal for Vue Projects",
+
+        created:"March 10, 2025",
+        author:"Abdiel Kengne",
+        tags:['Nuxt 3','Vue JS'],
+        image:"https://i.imghippo.com/files/QtMM7244WE.png",
+        alt:"Image of Nuxt Logo",
+        //to:"/blog/why_nuxt",
+        to:'/blog'
         
 
     },
     {
         id:4,
-        title:"Why Nuxt.js is the Perfect Framework for Your Next Vue Project",
+        title:"Best Youtube Channels to Learn Coding",
 
-        created:"March 10, 2025",
+        created:"March 11, 2025",
         author:"Abdiel Kengne",
-        tags:['Nuxt 3','Vue JS'],
-        image:"https://i.postimg.cc/t4ZQzVVj/nuxt.png",
-        alt:"Image of accessibility",
-        to:"/blog/why_nuxt"
+        tags:['coding','youtube'],
+        image:"https://i.imghippo.com/files/PJe2988mKY.png",
+        alt:"Image of coding",
+        //to:"/blog/best_youtube_channels_to_learn_coding",
+        to:'/blog'
         
 
     }
